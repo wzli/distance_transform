@@ -5,6 +5,7 @@
 - No dynamic memory allocation
 - No external dependencies
 - C99 compliant
+- Can run on embedded microcontrollers
 
 ## Usage
 Self-explanatory, see [distance_transform.h](./distance_transform.h)
@@ -26,6 +27,9 @@ saved original.pgm
 saved manhattan_distance_transform.pgm
 saved square_distance_transform.pgm
 ```
+Original Image
 ![Original Image](./original.png)
+Distance Transformed Image
 ![Distance Transform](./distance_transform.png)
+Manhattan Distance Transformed Image
 ![Manhattan Distance Transform](./manhattan_distance_transform.png)
