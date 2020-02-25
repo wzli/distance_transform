@@ -1,7 +1,7 @@
 # Distance Transform 
 - Based on [Distance Transform of Sampled Functions](http://cs.brown.edu/people/pfelzens/dt/)
 - O(N_PIXELS) time complexity
-- Modifies buffers implace
+- Modifies buffer implace
 - No dynamic memory allocation
 - No external dependencies
 - C99 compliant
