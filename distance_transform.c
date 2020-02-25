@@ -7,15 +7,15 @@
 
 // helpers functions
 
-int min(int x, int y) {
+static inline int min(int x, int y) {
     return x < y ? x : y;
 }
 
-int clamp(int x, int min, int max) {
+static inline int clamp(int x, int min, int max) {
     return x < min ? min : x > max ? max : x;
 }
 
-static int parabola_intersection(int x2, int y2, int x1, int y1) {
+static inline int parabola_intersection(int x2, int y2, int x1, int y1) {
     return ((x2 - x1) * (x2 + x1 + 1) + y2 - y1) / (2 * (x2 - x1));
 }
 
