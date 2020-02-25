@@ -27,9 +27,9 @@ saved original.pgm
 saved manhattan_distance_transform.pgm
 saved square_distance_transform.pgm
 ```
-Original Image
+### Original Image
 ![Original Image](./original.png)
-Distance Transformed Image
+### Distance Transformed Image
 ![Distance Transform](./distance_transform.png)
-Manhattan Distance Transformed Image
+### Manhattan Distance Transformed Image
 ![Manhattan Distance Transform](./manhattan_distance_transform.png)
